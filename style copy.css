@@ -1,0 +1,31 @@
+@media (max-width: 480px) {
+  .top-album-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .album-txt-info {
+    gap: 20px;
+  }
+
+  .album-art-file {
+    height: 50px;
+    max-width: 50x;
+  }
+  .album-title {
+    text-align: center;
+  }
+
+  .review-full-txt {
+    width: 100%;
+  }
+
+  p.album-artist-name {
+    text-align: center;
+  }
+
+  .main {
+    width: 80%;
+  }
+}

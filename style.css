@@ -1,0 +1,181 @@
+body {
+  font-family: "PT Serif", -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 30px;
+  position: fixed;
+  width: 100%;
+}
+
+img.logo {
+  width: 80px;
+  height: 15px;
+}
+
+i.fa-solid.fa-bars {
+  color: #878787;
+}
+
+i.fa-solid.fa-magnifying-glass {
+  color: #878787;
+}
+
+.right-items {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto 0px;
+  width: 75%;
+  padding-bottom: 100px;
+}
+
+.top-album-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 0px;
+}
+
+.album-art-score {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.album-txt-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.review-header {
+  font-family: "Walfork-Regular";
+  text-align: center;
+  font-size: larger;
+  line-height: 1.55556em;
+  font-weight: bolder;
+}
+
+p.album-title {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Playfair Display";
+}
+
+p.album-artist-name {
+  font-size: 30px;
+  text-decoration-line: underline;
+  font-family: "Walfork-Regular";
+  line-break: anywhere;
+}
+
+img.album-art-file {
+  height: 312px;
+  max-width: 312px;
+}
+
+.album-score {
+  img.album-art-file {
+    height: 312px;
+    max-width: 312px;
+  }
+  position: relative;
+  margin-bottom: 1rem;
+  border: 7px solid rgb(43, 43, 43);
+  border-radius: 50%;
+  padding-bottom: 1rem;
+  width: 134px;
+  height: 134px;
+  text-align: center;
+  color: rgb(43, 43, 43);
+}
+
+p.album-score-txt {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  color: rgb(43, 43, 43);
+  --type-token: globalEditorial . numerical-large;
+  text-transform: none;
+  font-family: Walfork, helvetica, sans-serif;
+  font-feature-settings: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1em;
+  font-size: 48.5px;
+  font-weight: 600;
+  overflow-wrap: normal;
+}
+
+p.year-txt {
+  font-family: "Walfork-Regular";
+}
+
+p.category-txt {
+  font-family: "Walfork-Regular";
+}
+
+.review-full-txt {
+  line-height: 1.55556em;
+  font-size: 18px;
+  width: 70%;
+}
+
+.lower-review-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .top-album-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .album-txt-info {
+    gap: 20px;
+  }
+
+  img.album-art-file {
+    height: 163px;
+    max-width: 163px;
+  }
+  .album-title {
+    text-align: center;
+  }
+
+  .review-full-txt {
+    width: 100%;
+  }
+
+  p.album-artist-name {
+    text-align: center;
+  }
+
+  .main {
+    width: 80%;
+  }
+}
