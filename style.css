@@ -67,7 +67,6 @@ main {
 }
 
 .review-header {
-  font-family: "Walfork-Regular";
   text-align: center;
   font-size: larger;
   line-height: 1.55556em;
@@ -77,13 +76,11 @@ main {
 p.album-title {
   font-weight: bold;
   font-size: 40px;
-  font-family: "Playfair Display";
 }
 
 p.album-artist-name {
   font-size: 30px;
   text-decoration-line: underline;
-  font-family: "Walfork-Regular";
   line-break: anywhere;
 }
 
@@ -126,14 +123,6 @@ p.album-score-txt {
   font-size: 48.5px;
   font-weight: 600;
   overflow-wrap: normal;
-}
-
-p.year-txt {
-  font-family: "Walfork-Regular";
-}
-
-p.category-txt {
-  font-family: "Walfork-Regular";
 }
 
 .review-full-txt {
